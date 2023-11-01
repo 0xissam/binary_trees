@@ -1,12 +1,12 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_delete - function sdfui that deletes an entire binary tree.
- * @tree: pointer to thejkdsf  root node of the tree to delete.
+ * binary_tree_delete - function that deletes the entire binary tree.
+ * @tree: pointer to a root node of a tree to delete.
  *
- * If tree is NULL, do  usidfnothing.
+ * If tree is NULL, do a nothing.
  *
- * Return: nohjs return.
+ * Return: no return.
  */
 void binary_tree_delete(binary_tree_t *tree)
 {

@@ -1,13 +1,13 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_insert_left - function dfs that inserts a node as the,
- * left-child of another node.
+ * binary_tree_insert_left - function that inserts a node as a,
+ * left-child of another a node.
  *
- * @parent: pointer to the dsf node to insert the left-child in.
- * @value: value to store in the new node.
+ * @parent: pointer to a node to insert a left-child in.
+ * @value: value to store in a new node.
  *
- * Return: pointer to the created nodewer qw, or NULL on failure or if parent,
+ * Return: pointer to a created node, or NULL on failure or if parent,
  * is NULL.
  */
 
