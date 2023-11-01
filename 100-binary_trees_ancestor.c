@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_trees_ancestor - findsw u8we the lowest common ancestor of two nodes.
- * @first: pointer to the first node.
- * @second: pointer to the sduf ew second node.
+ * binary_trees_ancestor - finds thowest commonsd ancestor of two nodes.
+ * @first: pointer t first node.
+ * @second: pointer to thsecond node.
  *
- * Return: pointer to the lowest common ancestor node of the two given nodes.
+ * Return: pointer to the lowest common ancestorsd node of the two given nodes.
  */
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 									 const binary_tree_t *second)
@@ -14,13 +14,13 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 
 	if (first == NULL || second == NULL)
 		return (NULL);
-	/* get the depth ofsdfa ewer the first and second node */
+	/* get the depth of e first and second node */
 	depth_first = binary_tree_depth(first);
 	depth_second = binary_tree_depth(second);
 	/*
-	* check if the depth of the first node is greater than the second node.
-	* If so, we move the sdf sfdfirst node up the tree until the depth of the first
-	* node is equal to the depth of the second node.
+	* check if the depth of sdf first node is sgreater than the second node.
+	* If so, we move the firdsf node up the tree until the depth of the first
+	* node is equal to the sdth of the second node.
 	*/
 	while (depth_first > depth_second)
 	{
@@ -28,9 +28,9 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 		depth_first--;
 	}
 	/*
-	* check if the depth of the second node is greater than the depth of
-	* the first node. If  sdfasdu iwjefi so, we move the second node up the tree until the
-	* depth of the second node is equal to the depth of the first node.
+	* check if the depth of the sesdfnd node is greater than the depth of
+	* the first node. If so, we movdthe second node up the tree until the
+	* depth of the second were is equal to the depth of the first node.
 	*/
 	while (depth_second > depth_first)
 	{
@@ -38,10 +38,10 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 		depth_second--;
 	}
 	/*
-	* check if the first node is equal to the second node. If so, we return
-	* the first node. If the first node is not equal to the second node, we move
-	* the first node up the tree and the second node up the tree then repeat
-	* the first statement of this comment.
+	* check if the firstode is equal to the second node. If so, we return
+	* the first node. If sdf first node is not equal to the second node, we move
+	* the first nosdfup the tree and the second node up the tree then repeat
+	* the first stadsfent of this comment.
 	*/
 	while (first != second)
 	{
@@ -52,9 +52,9 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 }
 
 /**
- * binary_tree_depth - uwe iwmeasures the depth of a node in a binary tree
- * @tree: pointer to thehuew uwrej node to measure the depth
- * Return: depth of the ewrh node
+ * binary_tree_depth - measdsures a depth of a node in a binary tree
+ * @tree: pointer to the noto measure the depth
+ * Return: depth of thndee
  */
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
