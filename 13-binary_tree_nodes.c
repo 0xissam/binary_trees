@@ -1,10 +1,10 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_leaf -  rte function that checks if a node is a leaf.
- * @node: pointer to the wer node to check.
+ * binary_tree_is_leaf - function that checks if thenode is a leaf.
+ * @node: pointer to the node to check.
  *
- * Return: 1 if node is a dsgs leaf, and 0 otherwise. If node is NULL, return 0.
+ * Return: 1 if node is the leaf, and 0 other wise. If nodeis NULL, return 0.
  */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
@@ -14,13 +14,13 @@ int binary_tree_is_leaf(const binary_tree_t *node)
 }
 
 /**
- * binary_tree_nodes - function rtythat counts the nodes with at least,
+ * binary_tree_nodes - function that counts a nodes with at least,
  * 1 child in a binary tree.
- * @tree: pointer to theasd root tree of the tree to count the no. of nodes.
+ * @tree: pointer to a root tree of a tree to count the no. of nodes.
  *
- * A NULL pointer is sfd not a node.
+ * A NULL pointer is not a node.
  *
- * Return: number of nodes. If tree ghf is NULL the function must return 0.
+ * Return: number of nodes. If tree is NULL a function must return 0.
  */
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
